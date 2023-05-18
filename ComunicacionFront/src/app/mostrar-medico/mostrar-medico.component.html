@@ -1,0 +1,16 @@
+<h1>Listar medicos</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Dni</th>
+    <th>nombre</th>
+    <th>Edad</th>
+  </tr>
+  <tr *ngFor="let elementos of medico">
+  <td>{{elementos.idMedico}}</td>
+  <td>{{elementos.dni}}</td>
+  <td>{{elementos.nombre}}</td>
+  <td>{{elementos.edad}}</td>
+  </tr>
+</table>
